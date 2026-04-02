@@ -35,4 +35,15 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
+<<<<<<< HEAD
+=======
+}
+
+#Banner_MainText {
+    font-size: 2.5vw;
+}
+
+#Banner_SubText {
+    font-size: 2vw;
+>>>>>>> main
 }
