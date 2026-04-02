@@ -36,3 +36,11 @@ a {
     align-items: center;
     color: white;
 }
+
+#Banner_MainText {
+    font-size: 2.5vw;
+}
+
+#Banner_SubText {
+    font-size: 1.5vw;
+}
