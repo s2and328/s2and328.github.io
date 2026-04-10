@@ -14,6 +14,7 @@ a {
     container-type: size;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #Header_logo {
@@ -23,11 +24,17 @@ a {
     justify-content: left;
 }
 
+#Header_Gallery {
+    font-size: 5vh;
+    margin-right: 3%;
+    color: white;
+}
+
 .Banner {
     width: 100%;
     height: 90vh;
     background-image: url("../Images/BannerPic.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center 30%;
     background-repeat: no-repeat;
     display: flex;
@@ -43,4 +50,14 @@ a {
 
 #Banner_SubText {
     font-size: 2vw;
+}
+
+#email_link {
+    color: white;
+    text-decoration: underline;
+}
+
+#instagram_link {
+    color: white;
+    text-decoration: underline;
 }
